@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49844b43-c8d9-43bb-9ad4-61d65ff36749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_18.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_19.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_http_request.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_1_UsualExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_2_SchedulerIntro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_3_Schedulers_Single.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_4_Schedulers_Trampoline.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_5_Schedulers_from.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_17.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,83 +36,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_17.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_1_UsualExample.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_18.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_19.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
-                <element signature="e#18#89#0" expanded="true" />
+                <element signature="e#18#108#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_http_request.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_2_SchedulerIntro.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
-                <element signature="e#18#110#0" expanded="true" />
+                <element signature="e#18#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.0/5e23adc8ee17546d4ca0bac70fef750394b11e15/httpasyncclient-4.0-sources.jar!/org/apache/http/impl/nio/client/HttpAsyncClients.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_3_Schedulers_Single.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="510">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="e#18#152#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.0/5e23adc8ee17546d4ca0bac70fef750394b11e15/httpasyncclient-4.0-sources.jar!/org/apache/http/impl/nio/client/CloseableHttpAsyncClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_4_Schedulers_Trampoline.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-apache-http/0.20.7/6ba33a14a12b93a42f44537580bba27f54beef3e/rxjava-apache-http-0.20.7-sources.jar!/rx/apache/http/ObservableHttpResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#18#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_5_Schedulers_from.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#18#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.0-alpha-2/58c233bc1b8a98b0c2de232a5b76f5efc89bea7f/kotlinx-coroutines-core-1.2.0-alpha-2-sources.jar!/commonMain/Builders.common.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -147,11 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/chapter4/chapter4_24.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/chapter1/IteratorExmpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/chapter1/ObservableExmpl1.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/chapter1/SimpleEvenOddFuncMain.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/chapter1/ReactiveEvenOdd.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/chapter1/ReactiveCalculator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/chapter5/chapter5_2.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/chapter5/CommonUtils.kt" />
@@ -198,6 +178,11 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_19.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/chapter6/chapter6_http_request.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_1.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_2.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_3_Schedulers_Single.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_4_Schedulers_Trampoline.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_5_Schedulers_from.kt" />
       </list>
     </option>
   </component>
@@ -242,7 +227,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter6.Chapter6_http_requestKt">
+  <component name="RunManager" selected="Kotlin.chapter7.Chapter7_4_Schedulers_TrampolineKt">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -293,66 +278,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter6.Chapter6_16_7Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="org.gradle.reactivekotlin.reactivekotlin.main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter6.Chapter6_16_7Kt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter6.Chapter6_16_8Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="org.gradle.reactivekotlin.reactivekotlin.main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter6.Chapter6_16_8Kt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter6.Chapter6_17Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter7.Chapter7_1_UsualExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="reactivekotlin.main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter6.Chapter6_17Kt" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Chapter7_1_UsualExampleKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter6.Chapter6_19Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter7.Chapter7_2_SchedulerIntroKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="reactivekotlin.main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter6.Chapter6_19Kt" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Chapter7_2_SchedulerIntroKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter6.Chapter6_http_requestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter7.Chapter7_3_Schedulers_SingleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="reactivekotlin.main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter6.Chapter6_http_requestKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Chapter7_3_Schedulers_SingleKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter7.Chapter7_4_Schedulers_TrampolineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="reactivekotlin.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Chapter7_4_Schedulers_TrampolineKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter7.Chapter7_5_Schedulers_fromKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="reactivekotlin.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Chapter7_5_Schedulers_fromKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.chapter6.Chapter6_http_requestKt" />
-        <item itemvalue="Kotlin.chapter6.Chapter6_19Kt" />
-        <item itemvalue="Kotlin.chapter6.Chapter6_17Kt" />
-        <item itemvalue="Kotlin.chapter6.Chapter6_16_8Kt" />
-        <item itemvalue="Kotlin.chapter6.Chapter6_16_7Kt" />
+        <item itemvalue="Kotlin.chapter7.Chapter7_4_Schedulers_TrampolineKt" />
+        <item itemvalue="Kotlin.chapter7.Chapter7_5_Schedulers_fromKt" />
+        <item itemvalue="Kotlin.chapter7.Chapter7_3_Schedulers_SingleKt" />
+        <item itemvalue="Kotlin.chapter7.Chapter7_2_SchedulerIntroKt" />
+        <item itemvalue="Kotlin.chapter7.Chapter7_1_UsualExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -410,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555071918487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished chapter 6">
+      <created>1556621999482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556621999483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45850000" />
+    <option name="totallyTimeSpent" value="51346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +421,7 @@
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13631523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13631523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,7 +430,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34867257" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34867257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,42 +536,10 @@
     <MESSAGE value="Added chapter 3" />
     <MESSAGE value="Re-Added, plus started work on chapter 4" />
     <MESSAGE value="Finished chapter 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished chapter 4" />
+    <MESSAGE value="Finished chapter 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished chapter 6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter2/InlineExample.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter2/Monads.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter3/BehaviourSubjectExmpl.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter3/ObservableJustExmpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter5/chapter5_11.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter5/chapter5_12.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#18#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter5/chapter5_13.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -966,8 +926,65 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.0/5e23adc8ee17546d4ca0bac70fef750394b11e15/httpasyncclient-4.0-sources.jar!/org/apache/http/impl/nio/client/CloseableHttpAsyncClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+        <state relative-caret-position="408">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_1_UsualExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#18#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_2_SchedulerIntro.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.0-alpha-2/58c233bc1b8a98b0c2de232a5b76f5efc89bea7f/kotlinx-coroutines-core-1.2.0-alpha-2-sources.jar!/commonMain/Builders.common.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_3_Schedulers_Single.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#18#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_5_Schedulers_from.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/chapter7/chapter7_4_Schedulers_Trampoline.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#18#230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
