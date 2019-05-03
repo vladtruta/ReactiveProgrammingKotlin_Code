@@ -20,6 +20,10 @@ dependencies {
     
     //RxJava - Apache - HTTP
     compile group: 'com.netflix.rxjava', name: 'rxjava-apache-http', version: '0.20.7'
+
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:1.9.5"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:1.3.21"
 }
 
 compileKotlin {
