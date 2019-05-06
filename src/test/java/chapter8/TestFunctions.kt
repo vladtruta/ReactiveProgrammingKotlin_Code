@@ -36,6 +36,6 @@ class TestFunctions {
 
     @Test
     fun `assert that passed value is not null`() {
-        assertNotNull(null)
+        assertNotNull(1234)
     }
 }
